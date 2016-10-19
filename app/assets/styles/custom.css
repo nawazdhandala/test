@@ -1,0 +1,150 @@
+.navyblue{
+	background-color:#003459 !important; 
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color: #41657F;
+}
+
+.white{
+	color: white !important;
+}
+.stdheight{
+	height: 100px;
+}
+.wd10p{
+	width: 10%;
+}
+.wd25p{
+	width: 25%;
+}
+.wd10p{
+	width: 10%;
+}
+
+.tacenter{
+	text-align: center;
+}
+.tacentertd td{
+	text-align: center;
+}
+.tacenterth th{
+	text-align: center;
+}
+
+.squareButton{
+	width: 150px;
+    margin-top: 3px;
+    margin-left: 3px;
+    border-radius: 0px;
+    cursor: default;
+    border: 1px solid black;
+}
+
+.navA{
+	height: 150px;
+	/*padding-left: 32px !important;*/
+	width: 100%
+}
+
+.ml43p{
+	margin-left: 43%;
+}
+.fs-60{
+	font-size: 50px !important;
+    margin-left: 53px !important;
+}
+
+.sidenavp{
+	font-size: 20px;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.widthNav{
+	max-width: 190px;
+}
+
+.w100{
+	width: 100% !important;
+}
+.yellow{
+	background-color: #FFEB3B
+}
+
+.red{
+	background-color: #F44336;
+}
+
+.blue{
+	background-color: #00BCD4;
+}
+.gray{
+	background-color: #D8D8D8;
+}
+
+.green{
+	background-color: #00C853;
+}
+
+.textTable{
+	margin-top: 28px;
+    font-size: 23px !important;
+}
+.h250 {
+	min-height: 250px
+}
+
+.small{
+	width: 100px;
+    height: 30px;
+}
+.cardheading{
+	margin-bottom: 0;
+	margin-left: 2px;
+}
+
+.mt7{
+	margin-top: 7px;
+}
+.pvh{
+	height: 100px;
+}
+.pvborder{
+	border: none;
+}
+
+.fl{
+	float: left;
+}
+
+.pbi{
+	margin-top: 10px;
+}
+.pbname{
+	margin-top: 21px;
+    margin-left: 58px;
+    font-size: 20px;
+}
+.pbcrate{
+	/*font-size: 10px*/
+}
+
+.pbbr{
+	border-right: 2px solid #AAA;
+	width: 21% !important;
+}
+.pubc{
+	    min-height: 170px;
+    border-bottom: 2px solid #AAA !important;
+}
+.flighthistory{
+	cursor: default;
+	background-color: #FFF;
+	height: 55px;
+    width: 206px;
+    font-size: 19px;
+    margin-top: 4px;
+    margin-left: 9px;
+}

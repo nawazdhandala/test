@@ -1,0 +1,28 @@
+{
+  "name": "inventory",
+  "version": "0.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "axios": "^0.14.0",
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.16.0",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "history": "^4.3.0",
+    "mobx": "^2.6.0",
+    "mobx-react": "^3.5.8",
+    "react": "~15.2.1",
+    "react-dom": "~15.2.1",
+    "react-router": "^2.8.1",
+    "webpack": "~1.13.1",
+    "webpack-dev-server": "~1.14.1"
+  }
+}
