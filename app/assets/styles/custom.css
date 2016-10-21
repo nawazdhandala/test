@@ -1,3 +1,12 @@
+body{
+	background-color:#003459 !important; 
+}
+#wrapper{
+	background-color: white;
+}
+#app{
+	height: 100%;
+}
 .navyblue{
 	background-color:#003459 !important; 
 }
@@ -97,8 +106,10 @@
 }
 
 .small{
-	width: 100px;
+	max-width: 100px;
     height: 30px;
+    width: 100%;
+    min-width: 60px;
 }
 .cardheading{
 	margin-bottom: 0;
@@ -117,6 +128,9 @@
 
 .fl{
 	float: left;
+}
+.fr{
+	float: right;
 }
 
 .pbi{
@@ -147,4 +161,177 @@
     font-size: 19px;
     margin-top: 4px;
     margin-left: 9px;
+}
+
+.pbld{
+	border-right: 2px solid #AAA;
+    /* width: 100%; */
+    min-height: 400px;
+}
+.pbdcrate{
+	font-size: 40px !important;
+	margin-left: 4px;
+}
+
+.pdbb{
+	margin-top: -18px;
+
+}
+
+#auth{
+	width: 600px;
+    /*padding-bottom: 10px;*/
+    border-radius: 3px;
+    /*border: 1px solid black;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-left: -300px; /* margin is -0.5 * dimension */
+    /*margin-top: -200px;*/
+    background-color: #FFF;
+
+}
+
+.loginInput{
+	    border: 2px solid #D1D5DE;
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 4px 10px;
+    height: 46px;
+    font-weight: 400;
+    font-size: 13px;
+    width: 80%;
+    margin-top: 2%;
+    margin-left: 10%;
+    background-color: #EEE;
+}
+
+#loginbox, .loginbox{
+    width: 70%;
+    margin: auto;
+    margin-top: 5%;
+}
+.loginbtn{
+	margin-top: 15%;
+    background-color: #1598C3;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px;
+    width: 80%;
+    border: #1598C3;
+    overflow: hidden;
+    height: 46px;
+    margin-left: 10%;
+
+}
+
+.headChoose{
+	margin-top: -20px;
+    background-color: #003459;
+}
+
+.upperbtn{
+	width: 150px;
+    height: 30px;
+    border-radius: 0;
+}
+
+.bgwhite{
+	background-color: white;
+}
+.b1666{
+	border: 1px solid #666;
+}
+
+#headLine{
+	    margin-top: 50px;
+}
+.bottomChoose{
+	/*margin-top: -20px;*/
+    background-color: #003459;
+    height: 30px;
+    margin-top: 40px;
+}
+
+.btmlink{
+	margin-top: 8px;
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.btmlink:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.fgtpwd{
+	    float: right;
+    margin-right: 42px;
+    margin-top: 4px;
+    color: #666;
+}
+
+.tdnone{
+	text-decoration: none;
+	color: black;
+}
+.tdnone:hover{
+	text-decoration: none;
+	color: black;
+}
+
+.cacimg{
+	    width: 50%;
+    margin-left: 23%;
+    height: 290px;
+}
+
+.bFFF{
+	background-color: inherit;
+    color: white;
+}
+.bFFF:hover{
+	background-color: inherit;
+    color: white;
+}
+
+.mlm13{
+	margin-left: -13px;
+}
+.pb20{
+    padding-bottom: 20px;
+}
+.chat{
+    border-bottom: 2px solid #AAA;
+    margin-bottom: 15px;
+}
+
+.textareachat{
+    max-width: 250px;
+    min-width: 190px;
+    margin-left: 16px;
+    height: 64px;
+    resize: none;
+    width: 100%;
+}
+.chatpost{
+    border-radius: 0;
+    width: 110px;
+    height: 36px;
+    margin-left: 16px;
+    margin-top: 5px;
+}
+.airlogodiv{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 2%;
+    left: 45%;
+}
+
+.airlogo{
+    width: 200px;
+    height: 200px;
 }

@@ -23,12 +23,12 @@ class Navigation extends React.Component {
 	                    <span className="icon-bar"></span>
 	                    <span className="icon-bar"></span>
 	                </button>
-	                <a className="navbar-brand white" href="">Squadron View</a>
+	                <a className="navbar-brand white" href="">Admin View</a>
 	            </div>
 	            {/* Top Menu Items */}
 	            <ul className="nav navbar-right top-nav">
 	                <li className="dropdown">
-	                    <a href="#" className="dropdown-toggle white" data-toggle="dropdown"><i className="fa fa-user"></i> John Smith <b className="caret"></b></a>
+	                    <a href="#" className="dropdown-toggle white" data-toggle="dropdown"><i className="fa fa-user"></i> Admin <b className="caret"></b></a>
 	                    <ul className="dropdown-menu">
 	                        <li>
 	                            <a href="#"><i className="fa fa-fw fa-user"></i> Profile</a>
@@ -50,13 +50,10 @@ class Navigation extends React.Component {
 	            <div className="collapse navbar-collapse navbar-ex1-collapse">
 	                <ul className="nav navbar-nav side-nav navyblue widthNav">
 	                    <li className="w100">
-	                        <Link to="/supervisor" className="white navA w100"><i className="fa fa-bars fs-60"></i> <p className="sidenavp">Supervisor View</p></Link>
+	                        <Link to="/squadron" className="white navA w100"><i className="fa fa-bars fs-60"></i> <p className="sidenavp">Squadron</p></Link>
 	                    </li>
 	                    <li className="w100">
-	                        <Link to="/wave" className="white navA w100"><i className="fa fa-th-large fs-60"></i> <p className="sidenavp">Today's Wave</p></Link>
-	                    </li>
-	                    <li className="w100">
-	                        <Link to="/plane" className="white navA w100"><i className="fa fa-plane fs-60"></i> <p className="sidenavp">Plane View</p></Link>
+	                        <Link to="/pilot" className="white navA w100"><i className="fa fa-th-large fs-60"></i> <p className="sidenavp">Pilots</p></Link>
 	                    </li>
 	                </ul>
 	            </div>
